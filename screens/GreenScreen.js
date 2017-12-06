@@ -21,7 +21,7 @@ const instructions = Platform.select({
     'Shake or press menu button for dev menu',
 });
 
-export default class BlueScreen extends Component<{}> {
+export default class GreenScreen extends Component<{}> {
 
   buttonClicked() {
     this.props.navigation.navigate('RedScreen');
@@ -62,7 +62,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#00F',
+    backgroundColor: '#0F0',
   },
   welcome: {
     fontSize: 20,

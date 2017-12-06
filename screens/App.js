@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Tabs from './Tabs';
+import Root from './Root';
 import {
     Platform,
     StyleSheet,
@@ -9,7 +10,7 @@ import {
 
 class App extends Component {
   render() {
-    return <Tabs />;
+    return <Root />;
   }
 }
 
